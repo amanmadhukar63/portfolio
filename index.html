@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's Portfolio</title>
+    <link rel="icon" href="./images/Favicon.jpeg">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbarComponents">
+            <div id="navLogo">
+                <a href="#home"><img height="60px" src="./images/navLogo.png" alt="A"></a>
+            </div>
+            <div id="pageSection">
+                    <ul>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#project">Projects</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div id="home">
+            <div id="text">
+                <h2 class="text1">Hi, I'm </h2>
+                <h2 class="text2">Aman Madhukar</h2>
+                <h2 class="text3">Frontend Developer.</h2>
+                
+                <div id="socialmedia">
+                    <a href="https://www.linkedin.com/in/aman-madhukar-0b0420200/"><img src="./images/LinkedIn.png" alt="LinkedIn" class="logo"></a>
+                    <a href="https://www.leetcode.com/amanmadhukar"><img src="./images/LeetCode.png" alt="LeetCode" class="logo"></a>
+                    <a href="https://github.com/amanmadhukar63"><img src="./images/GitHub.png" alt="GitHub" class="logo"></a>
+                </div>
+                <a href="mailto:amanmadhukar63@gmail.com"><button class="button hover">Hire Me</button></a>
+            </div>
+            <div id="">
+                <img src="./images/robo.png" alt="HEY">
+            </div>
+        </div>
+        
+        <div id="skill">
+            <h2>Skills</h2>
+            <div class="skillset">
+                <details class="detail detailCpp">
+                    <summary>
+                        <img src="./images/Cpp.png" alt="C++">
+                    </summary>
+                    <p class="cppPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci.</p>
+                </details>
+                <details class="detail">
+                    <summary>
+                        <img src="./images/Html.webp" alt="HTML">
+                    </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci.</p>
+                </details>
+                <details class="detail">
+                    <summary>
+                        <img src="./images/CSS.webp" alt="CSS">
+                    </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci.</p>
+                </details>
+                <details class="detail">
+                    <summary>
+                        <img src="./images/JavaScript.webp" alt="JavaScript">
+                    </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci.</p>
+                </details>
+                <details class="detail">
+                    <summary>
+                        <img src="./images/React.png" alt="Reactjs">
+                    </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci.</p>
+                </details>
+            </div>
+        </div>
+
+        <div id="project">
+            <div class="projectContent">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="project">
+                        <div class="projectimage">
+                            <img src="/images/portfolio.png" alt="">
+                        </div>
+                        <div class="projecttext">
+                            <p>A Personal Website to showcase my
+                                projects and skills. Designed a clean and modern
+                                user interface, optimized for different screen sizes.
+                                Implemented dynamic content using JavaScript and
+                                integrated a contact form for user inquiries.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="project" onclick="hrefFunction()">
+                        <div class="projectimage">
+                            <h2>Simon Game</h2>
+                            <img height="200px" src="/images/SimonLogo.png" alt="SimonGame">
+                        </div>
+                        <div class="projecttext">
+                            <p>A basic memory game using the basic concept of JavaScript.
+                                </p>
+                        </div>
+                    </div>
+                    <!-- <div class="project">
+                        <div class="projectimage">
+                            <h2>My</h2><h2 style="color:rgb(240, 91, 91)">Tube</h2>
+                            <img src="/images/mytube.png" alt="myTube">
+                        </div>
+                        <div class="projecttext">
+                            <p>Developed a YouTube clone, allowing users to search and watch
+                                videos using the API.
+                                </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div id="contactContent">
+                <div id="contactForm">
+                    <h2>Contact Me</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate inventore delectus culpa totam id mollitia odio modi quia quaerat minima.</p>
+                    <ul class="contactList">
+                        <li>
+                            <input class="in in1 text" type="text" name="text" placeholder="Name">
+                        </li>
+                        <li>
+                            <input class="in in1 email" type="email" name="email" placeholder="Email">
+                        </li>
+                        <li>
+                            <input class="in in2" type="text" name="text" placeholder="Subject">
+                        </li>
+                        <li>
+                            <textarea class="in in2 in3" placeholder="Message" name="msg" id="msg" cols="21" rows="3" required></textarea>
+                        </li>
+                        <li>
+                            <input class="contactButton" type="submit" value="Send">
+                        </li>
+                    </ul>
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10616.635100169233!2d82.57137326325552!3d25.144046851779574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398fc03344d15679%3A0x796837e88daeca93!2sPrem%20Chandra%20Mali!5e0!3m2!1sen!2sin!4v1686135229901!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="aboutImage">
+                <img src="./images/MyPhoto.png" alt="image">
+            </div>
+            <div class="aboutText">
+                <h2>About Me</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti facere assumenda dolorem consequuntur quaerat a ipsa possimus hic praesentium voluptatem.</p>
+                <button id="educationButton" class="hover" onClick="edu()">Education</button>
+                <button class="hover" onClick="hobby()">Hobby</button>
+                <button class="hover" onClick="skill()">Skills</button>
+                <div id="educationContent">
+                    <p>2024 </p>
+                    <p>B.tech in Computer Science and Engineering from HBTU Kanpur</p>
+                    <p>2021</p>
+                    <p>Diploma in Electronics Engineering from IERT Prayagraj</p>
+                </div>
+                <div id="hobbyContent">
+                    <p>Chess</p>
+                    <p>Table Tennis</p>
+                </div>
+                <div id="skillContent">
+                    <p>C++</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Reactjs</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
